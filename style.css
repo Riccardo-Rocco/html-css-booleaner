@@ -1,0 +1,60 @@
+
+header {
+    position: relative;
+    background-color: rgb(66, 150, 188);
+    height: 150px; 
+    width: 100%;
+}
+
+
+.background-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    background-image: url('pattern.png');
+    background-size: contain; 
+    z-index: 0; 
+}
+
+.logo {
+    position: absolute;  
+    bottom: 0;           
+    left: 0;             
+    width: 150px;        
+    height: auto;        
+    z-index: 1;          
+}
+
+
+body {
+    
+    font-family: "Arial", sans-serif;
+}
+ 
+
+.testa-pagina {
+    line-height: 0.9; 
+   
+}
+
+
+ .titolo{
+    font-size: 36px;       
+    font-weight: bold; 
+    margin-bottom: 0px; 
+    
+}
+
+.sottotitolo {
+    margin-top: 0px; 
+    color: rgba(143, 145, 145, 0.999);
+    font-weight: bold;
+}
+
+.fake-link {
+    text-decoration: none;  
+    color: rgb(0, 153, 255);  
+    cursor: pointer;  
+}
